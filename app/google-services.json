@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "250254570935",
+    "firebase_url": "https://vnchats-ae5b2.firebaseio.com",
+    "project_id": "vnchats-ae5b2",
+    "storage_bucket": "vnchats-ae5b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250254570935:android:1d55e6d4b23fbaebfbe432",
+        "android_client_info": {
+          "package_name": "com.example.vnchats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250254570935-o7somat87qn3ibr8o2eogluv961qbs4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeD7RtoaobCOTxunOg5uZ9B3EXPsaI8IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250254570935-o7somat87qn3ibr8o2eogluv961qbs4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size15dp"
+        android:orientation="horizontal"
+        >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/users_profile_image"
+        android:layout_width="@dimen/size90dp"
+        android:layout_height="@dimen/size90dp"
+        android:src="@drawable/profile_image"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <TextView
+               android:id="@+id/user_profile_name"
+               android:layout_width="@dimen/size200dp"
+               android:layout_height="wrap_content"
+               android:text="@string/tennd"
+               android:textAlignment="textStart"
+               android:textSize="@dimen/size18sp"
+               android:textStyle="bold"
+               android:gravity="start" />
+
+           <ImageView
+              android:layout_marginLeft="@dimen/size150dp"
+               android:id="@+id/user_online_status"
+               android:layout_width="@dimen/size18dp"
+               android:layout_height="@dimen/size18dp"
+               android:layout_marginTop="@dimen/size5dp"
+               android:src="@drawable/online"
+               android:visibility="invisible"
+               />
+           <ImageButton
+               android:id="@+id/calling"
+               android:layout_width="@dimen/size65dp"
+               android:layout_height="@dimen/size50dp"
+               android:layout_toRightOf="@id/user_profile_name"
+               android:src="@mipmap/call"/>
+
+       </RelativeLayout>
+
+       <TextView
+           android:id="@+id/user_status"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/trangthai"
+           android:textAlignment="textStart"
+           android:textSize="@dimen/size16sp"
+           android:gravity="start" />
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/requests_accept_btn"
+               android:layout_width="wrap_content"
+               android:layout_height="@dimen/size30dp"
+               android:text="@string/chapnhan"
+               android:textSize="@dimen/size16sp"
+               android:textAllCaps="false"
+               android:background="@android:color/holo_green_light"
+               android:visibility="invisible"/>
+
+           <Button
+               android:id="@+id/requests_cancel_btn"
+               android:layout_width="wrap_content"
+               android:layout_height="@dimen/size30dp"
+               android:text="@string/thoat"
+               android:layout_marginStart="@dimen/size10dp"
+               android:textSize="@dimen/size16sp"
+               android:textAllCaps="false"
+               android:background="@android:color/holo_red_dark"
+               android:layout_marginLeft="@dimen/size15dp"
+               android:textColor="@android:color/background_light"
+               android:visibility="invisible"/>
+
+
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+ </LinearLayout>
+
+</RelativeLayout>

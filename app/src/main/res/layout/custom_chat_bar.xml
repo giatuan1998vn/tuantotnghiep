@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xanhnenthuongtrong">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/custom_profile_image"
+        android:layout_width="@dimen/size47dp"
+        android:layout_height="@dimen/size47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile_image"
+        android:cropToPadding="true"
+        android:layout_marginRight="@dimen/size10dp"
+        android:layout_alignParentRight="true" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/calling"-->
+<!--        android:src="@mipmap/call"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/size5dp"-->
+<!--        android:layout_marginRight="@dimen/size5dp"-->
+<!--        android:layout_toLeftOf="@id/custom_profile_image"></ImageButton>-->
+
+    <TextView
+        android:id="@+id/custom_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/hienthitennguoidung"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:textSize="@dimen/size18sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/custom_user_last_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_profile_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/size3dp"
+        android:text="@string/nhinthaylancuoi"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:textSize="@dimen/size14sp"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FireVideo">
+    <FrameLayout
+        android:id="@+id/remote_video_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+    <FrameLayout
+        android:id="@+id/local_video_view_container"
+        android:layout_width="@dimen/sie160dp"
+        android:layout_height="@dimen/size200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/size10dp"
+        android:layout_marginRight="@dimen/size10dp"
+        android:layout_marginTop="@dimen/size10dp"
+         />
+
+</RelativeLayout>
